@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.image-container {
+  width: 100%; /* Adjust the width as needed */
+  height: 350px; /* Adjust the height of the container */
+  overflow: hidden;
+  position: relative;
+}
+
+.image-container img {
+  position: absolute;
+  top: 0;
+  animation: scrollImage 10s linear infinite; /* Adjust the animation duration as needed */
+}
+
+@keyframes scrollImage {
+  0% {
+    top: 0;
+  }
+  100% {
+    top: -100%; /* Adjust this value based on the height of your image */
+  }
+}
