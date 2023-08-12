@@ -12,8 +12,7 @@ A clone of the Razorpay website built using HTML, CSS, Tailwind, and JavaScript,
 
 ## Demo
 
-Check out the live demo of the project: [Live Demo](https://razorpay-clone-m.netlify.app/)
-
+Check out the live demo of the project: [Live Demo](https://razorpay-colne-m.netlify.app/)
 
 
 ## Tech Stack
